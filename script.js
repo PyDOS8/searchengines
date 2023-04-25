@@ -1,4 +1,4 @@
 function search(){
   var s = document.getElementById("search").value;
-  window.location.assign("search.html#" + s);
+  document.write("<a href='javascript:s.value();'><script>document.write(s.value);</script</a>");
 }
